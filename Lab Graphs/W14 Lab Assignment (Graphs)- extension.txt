@@ -1,0 +1,9 @@
+digraph {
+Woodward -> Fretwell [label="3"];
+Woodward -> Union [label="5"];
+Fretwell -> Atkins [label="2"];
+Union -> Cone [label="4"];
+Atkins -> UNCC [label="6"];
+Cone -> UNCC [label="1"];
+UNCC -> UNCC [label="7"];
+}
